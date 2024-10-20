@@ -15,7 +15,7 @@ Once you access the browser page, the user is prompted to enter a city.<br>After
 Clone the repository to your computer, make sure you have node installed.<br>open a bash terminal & install the requireed npm packages using the command "npm i"<br>you will know that npm is installed properly by seeing the (node module) directories in the desired folders.<br>After the installation is completed, start the program by typing "npm run start:dev"
 
 ## Usage: 
-The following snapshot is an example of how the wireframe of the running application should look like:<br>[Snapshot](Assets\09-servers-and-apis-homework-demo.png)
+The following snapshot is an example of how the wireframe of the running application should look like:<br>[Snapshot](https://github.com/maherhosn/Weather-5Day-Dashboard/blob/main/Assets/09-servers-and-apis-homework-demo.png)
 
 ## Licence: <br>
 ### MIT <br>
