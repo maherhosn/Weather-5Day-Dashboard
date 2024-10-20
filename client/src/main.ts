@@ -42,10 +42,12 @@ const fetchWeather = async (cityName: string) => {
     },
     body: JSON.stringify({ cityName }),
   });
-
+  
+  
+  console.log("I am sending this to the server post " + cityName);
   const weatherData = await response.json();
-
-  console.log('weatherData: ', weatherData);
+  console.log('I am getting this response weatherData: ', weatherData);
+  console.log("===============================================");
 
   renderCurrentWeather(weatherData[0]);
   renderForecast(weatherData.slice(1));
@@ -289,3 +291,4 @@ searchForm?.addEventListener('submit', handleSearchFormSubmit);
 searchHistoryContainer?.addEventListener('click', handleSearchHistoryClick);
 
 getAndRenderHistory();
+
