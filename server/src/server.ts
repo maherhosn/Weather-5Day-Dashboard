@@ -14,7 +14,7 @@ const port = process.env.PORT || 3001;
 // TODO: Implement middleware to connect the routes
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('../../client/dist'));
+app.use(express.static('../client/dist'));
 app.use(routes);
 
 // // This route is a GET route for the home page
